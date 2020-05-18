@@ -38,6 +38,8 @@ spec:
               value: "86400"
             - name: DEVPI_PASSWORD
               value: ""
+            - name: DEVPI_SERVER_OPTIONS
+              value: ""
           resources:
             limits:
               cpu: 500m

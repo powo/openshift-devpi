@@ -20,4 +20,5 @@ devpi-server \
   --restrict-modify root \
   --mirror-cache-expiry=${DEVPI_MIRROR_CACHE_EXPIRY} \
   --host 0.0.0.0 \
-  --port 3141
+  --port 3141 \
+  ${DEVPI_SERVER_OPTIONS}
