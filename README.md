@@ -12,6 +12,7 @@ to be used on OpenShift by running as a non-priviledged user.
 - `DEVPI_PASSWORD`: devpi creates a user named `root` by default, its password
   can be set with this environment variable.
 - `DEVPI_MIRROR_CACHE_EXPIRY`: Default to `86400` which is one day. Cache expiry time.
+- `DEVPI_SERVER_OPTIONS`: additional options to pass to the devpi-server command line
 
 ## Create on openshift
 
